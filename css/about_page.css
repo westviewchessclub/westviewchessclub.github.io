@@ -1,0 +1,122 @@
+.navbar {
+  /*the body of the navigation*/
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  position: absolute;
+}
+
+.navbar-brand {
+  /*the brand of the navigation*/
+  min-height: 66px !important;
+}
+
+.navbar-header {
+  /*the brand of the navigation*/
+  min-height: 66px !important;
+}
+
+.navbar li a {
+  /*the customization of the buttons in the right of the navigation*/
+  color: #fff !important;
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px
+}
+
+.navbar .nav>li>a {
+  /*Main navbar css of the right */
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 16px;
+}
+
+.navbar-default .navbar-toggle {
+  /*the css for the button when you collapse the page*/
+  border-color: #fff;
+  background-color: none;
+}
+
+.navbar .nav>li.active>a, .navbar .nav>li.active>a:focus, .navbar .nav>li.active>a:hover {
+  /*css for active link in nav*/
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  background-color: transparent;
+}
+
+.glyphicon {
+  /*the icon*/
+  padding-right: 5px;
+}
+
+.link-1 {
+  transition: 0.3s ease;
+  background: transparent;
+  color: #ffffff;
+  font-size: 15px;
+  text-decoration: none;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+
+.link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0;
+}
+
+.jumbotron-1 {
+  height: 100vh;
+  position: relative;
+  background: url(../images/peek_chess.jpg) center;
+  background-size: cover;
+  margin-bottom: 0;
+  z-index: -101;
+}
+
+.jumbotron-2 {
+  margin-bottom: 0;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#000, #404040);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#000, #404040);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#000, #404040);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#000, #404040);
+  /* Standard syntax */
+  position: relative;
+  color:#fff;
+}
+
+h1.mid-text {
+  padding-top: 180px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 5px;
+  font-size: 100px;
+  color: white;
+  text-shadow: 4px 3px black;
+}
+
+h2.mid-text {
+  padding-top: 180px;
+  letter-spacing: 5px;
+  font-size: 35px;
+  color: white;
+  text-shadow: 4px 3px black;
+}
+
+#circle1, #circle2 {
+  margin: 10px;
+}
+
+.img-center {
+  margin: 0 auto;
+}
+
+.message p {
+  font-size: 16pt;
+  line-height: 2em;
+}

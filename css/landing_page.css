@@ -1,0 +1,112 @@
+.navbar {
+  margin-bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.0);
+  border: none;
+  position: absolute;
+}
+
+.navbar .navbar-brand {
+  color: white !important;
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+a {
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+  color: #fdcc52
+}
+
+.navbar .navbar-header .navbar-brand:focus, .navbar .navbar-header .navbar-brand:hover {
+  color: #ff0206;
+}
+
+.jumbotron {
+  color: #fff;
+  height: 100vh;
+  background: /* top, transparent red, faked with gradient */
+  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), #000 url("../images/checkmate.jpg") no-repeat center fixed;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  padding-top: 70px;
+  font-size:60pt;
+}
+
+.jumbotron h4 {
+  padding-top: 50px;
+  font-size:30px;
+}
+
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: #fff;
+}
+
+.item h5 {
+  font-size:16px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+
+}
+
+.item span {
+  font-style: normal;
+}
+
+.text-muted {
+  color: #fff;
+}
+
+.btn {
+    padding: 24px 24px;
+    margin-top: 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: none;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+.btn.outline {
+	background: none;
+	padding: 8px 18px;
+}
+
+.btn-primary.outline {
+	border: 2px solid #fff;
+	color: #0099cc;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color: #fff;
+	border-color: #fff;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+	border-color: #fff;
+	color: #007299;
+	box-shadow: none;
+}

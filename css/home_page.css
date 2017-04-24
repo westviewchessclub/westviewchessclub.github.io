@@ -1,0 +1,143 @@
+.navbar {
+  /*the body of the navigation*/
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  position: absolute;
+}
+
+.navbar-brand {
+  /*the brand of the navigation*/
+  min-height: 66px !important;
+}
+
+.navbar-header {
+  /*the brand of the navigation*/
+  min-height: 66px !important;
+}
+
+.navbar li a {
+  /*the customization of the buttons in the right of the navigation*/
+  color: #fff !important;
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px
+}
+
+.navbar .nav>li>a {
+  /*Main navbar css of the right */
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 16px;
+}
+
+.navbar-default .navbar-toggle {
+  /*the css for the button when you collapse the page*/
+  border-color: #fff;
+  background-color: none;
+}
+
+.navbar .nav>li.active>a, .navbar .nav>li.active>a:focus, .navbar .nav>li.active>a:hover {
+  /*css for active link in nav*/
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  background-color: transparent;
+}
+
+.glyphicon {
+  /*the icon*/
+  padding-right: 5px;
+}
+
+.link-1 {
+  transition: 0.3s ease;
+  background: transparent;
+  color: #ffffff;
+  font-size: 15px;
+  text-decoration: none;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+
+.link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0;
+}
+
+.jumbotron-1 {
+  background: url(../images/chess.png) center top;
+  background-size: cover;
+  margin-bottom: 0px;
+  height: 100vh;
+  position: relative;
+}
+
+.jumbotron-3 {
+  background: linear-gradient( rgba(0,0,0,.25), rgba(0,0,0,.25) ),url(../images/kingtall.jpeg) center right;
+  background-size: cover;
+  margin-bottom: 0px;
+  height: 100vh;
+  position: relative;
+  color:white;
+}
+
+.jumbotron-2 {
+  background: #000;
+  background-size: cover;
+  margin-bottom: 0px;
+  position: relative;
+  color:white;
+}
+
+.jumbotron-4 {
+  background-size: cover;
+  margin-bottom: 0px;
+  position: relative;
+  color:#000;
+
+}
+
+
+
+h1.mid-text {
+  padding-top: 20px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 5px;
+  font-size: 100px;
+  color: white;
+  text-shadow: 4px 3px black;
+}
+
+h2.mid-text {
+  padding-top: 120px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 5px;
+  font-size: 35px;
+  color: white;
+  text-shadow: 4px 3px black;
+}
+
+h3.mid-text {
+  padding-top: 20px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 5px;
+  color: white;
+  text-shadow: 4px 3px black;
+}
+
+h4.mid-text {
+  padding-top: 20px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 5px;
+  color: white;
+  text-shadow: 4px 3px black;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  margin: 0px;
+}
